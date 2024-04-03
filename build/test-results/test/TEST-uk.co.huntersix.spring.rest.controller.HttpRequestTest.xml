@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.co.huntersix.spring.rest.controller.HttpRequestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-03T21:13:50" hostname="DELLLAPTOP" time="0.533">
+  <properties/>
+  <testcase name="shouldReturnPersonDetails" classname="uk.co.huntersix.spring.rest.controller.HttpRequestTest" time="0.533"/>
+  <system-out><![CDATA[2024-04-03 22:13:48.346  INFO 15976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [uk.co.huntersix.spring.rest.controller.HttpRequestTest], using SpringBootContextLoader
+2024-04-03 22:13:48.347  INFO 15976 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [uk.co.huntersix.spring.rest.controller.HttpRequestTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-04-03 22:13:48.348  INFO 15976 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [uk.co.huntersix.spring.rest.controller.HttpRequestTest]: HttpRequestTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-03 22:13:48.362  INFO 15976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration uk.co.huntersix.spring.rest.Application for test class uk.co.huntersix.spring.rest.controller.HttpRequestTest
+2024-04-03 22:13:48.363  INFO 15976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2024-04-03 22:13:48.364  INFO 15976 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1de4285e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1378eea2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@634ff56, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@66522ead, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a484ce1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@e91b4f4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ffe243f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@58ae402b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4099209b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@43ac0a68]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2024-04-03 22:13:48.404  INFO 15976 --- [    Test worker] u.c.h.s.rest.controller.HttpRequestTest  : Starting HttpRequestTest on DellLaptop with PID 15976 (started by user1 in C:\java-spring-restful-api-test)
+2024-04-03 22:13:48.406  INFO 15976 --- [    Test worker] u.c.h.s.rest.controller.HttpRequestTest  : No active profile set, falling back to default profiles: default
+2024-04-03 22:13:49.353  INFO 15976 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-04-03 22:13:49.435  INFO 15976 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-03 22:13:49.436  INFO 15976 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2024-04-03 22:13:49.972  INFO 15976 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-03 22:13:49.973  INFO 15976 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1563 ms
+2024-04-03 22:13:50.459  INFO 15976 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-04-03 22:13:50.742  INFO 15976 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 53107 (http) with context path ''
+2024-04-03 22:13:50.743  INFO 15976 --- [    Test worker] u.c.h.s.rest.controller.HttpRequestTest  : Started HttpRequestTest in 2.376 seconds (JVM running for 9.979)
+2024-04-03 22:13:50.923  INFO 15976 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-03 22:13:50.923  INFO 15976 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-03 22:13:50.959  INFO 15976 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
